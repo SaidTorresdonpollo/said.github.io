@@ -1,0 +1,158 @@
+html
+.volkhov-regular {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .volkhov-bold {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+ 
+  .volkhov-regular-italic {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .volkhov-bold-italic {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+ body
+{
+    font-family: "Volkhov", serif;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+.header
+{
+  background-color: rgba(116, 112, 112, 0.274);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+.div
+{
+height: 100px;
+display: flex;
+align-items: center;
+gap: 500px;
+}
+.a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: azure;
+  font-size: 15px;
+  border: 2px solid transparent;
+ transition: .4s ease;
+}
+.a:hover
+{
+  transition: .4s ease;
+  border: 2px solid turquoise;
+color: aquamarine;
+
+}
+.encabezado
+{
+  display: inline-block;
+}
+.Noticias1
+{
+  background: url(Imagen\ 1.jpg);
+  width: 600px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+.Noticias1:hover{
+  filter: blur(8px);
+  transform: translateY(-30px);
+  transition: 0.5s;
+}
+
+.Noticias2
+{
+  background: url(Imagen\ 2.jpg);
+  width: 600px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+.Noticias2:hover{
+  filter: blur(8px);
+  transform: translateY(-30px);
+  transition: 0.5s;
+}
+.Imagen_juntas
+{
+  display: inline-block;
+}
+.Texto_Noticia1
+{
+font-size: 20px;
+color: azure;
+width: 600px;
+text-align: center;
+margin-top: 5px;
+
+
+  }
+  .Texto_Noticia2
+  {
+  font-size: 20px;
+  color: azure;
+  width: 600px;
+  text-align: center;
+  margin-top: 2px;
+  
+    }
+  .Textos_noticias_juntos
+  {
+    display: inline-block;
+  }
+
+  .vermas
+  {
+    border-radius: 20px; 
+    width: 120px; 
+    height: 30px; 
+    background-color: #678D8D; 
+    color: aliceblue;
+    
+    transition: 0.5s;
+  }
+
+  .vermas:hover{
+    background-color: aliceblue;
+    color: #678D8D;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cierre
+{
+  display: inline-block;
+}
